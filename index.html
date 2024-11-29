@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Responsive portfolio website Ansel </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                   Vijayakumar
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2 nav__icon' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Vijayakumar</h1>
+                        <h3 class="home__education">Full stack Developer</h3>
+
+                        <div class="home__buttons">
+                            <!-- Insert your CV -->
+                            <a download="" href="assets/pdf/vijayakumar-Cv.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <!-- Insert your image, according to the example size of the portfolio -->
+                        <img src="assets/img/myimage5.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/vijayakumar-e-369a8230b/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-dribbble' ></i>
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon' ></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/myimage1.jpeg" alt="" class="about__img"> 
+
+                    <div class="about__data">
+                       
+
+                        <p class="about__description">
+                        
+                        
+                            Hi, I'm Vijayakumar Full Stack Developer, I create web pages with UI / UX user interface, 
+                            I have completed projects and My journey in web development has been fueled by a deep curiosity for technology and a commitment to delivering high-quality solutions that make a difference.
+                           
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">My abilities</span>
+                <h2 class="section__title">My Skills</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Frontend developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Express Js</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">MongoDB</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SERVICES ===============-->
+      
+
+
+
+            <section class="projects section">
+                <span class="section__subtitle">My Projects</span>
+                <h2 class="section__title">Recent Works</h2>
+            
+                <div class="projects__container container grid">
+                    <!-- Project 1 -->
+                    <div class="projects__card">
+                        <a href="https://sample-task-theta.vercel.app/" target="_blank" class="projects__link">
+                            <img src="assets/img/project1.png" alt="Project 1 Thumbnail" class="projects__image" />
+                        </a>
+                        <h3 class="projects__title">Luxury Hotel Website</h3>
+                        <!-- <p class="projects__description">
+                            A responsive and modern website for a luxury hotel featuring booking forms, API integrations, and a stunning design using Tailwind CSS and Daisy UI.
+                        </p> -->
+                        <span class="projects__button">
+                            <a href="=https://sample-task-theta.vercel.app/" target="_blank">
+                                View Project <i class='bx bx-right-arrow-alt projects__icon'></i>
+                            </a>
+                        </span>
+                    </div>
+            
+                    <!-- Project 2 -->
+                    <div class="projects__card">
+                        <a href="https://living-site-task-html-and-cssss.vercel.app/" target="_blank" class="projects__link">
+                            <img src="assets/img/project2.png" alt="Project 2 Thumbnail" class="projects__image" />
+                        </a>
+                        <h3 class="projects__title">Living Entertainment Hub</h3>
+                        <!-- <p class="projects__description">
+                            The Living Entertainment Hub is a dynamic platform designed to elevate your entertainment
+                             technologies like HTML, Tailwind CSS, and responsive design principles, 
+                           
+                        </p> -->
+                        <span class="projects__button">
+                            <a href="https://living-site-task-html-and-cssss.vercel.app/" target="_blank">
+                                View Project <i class='bx bx-right-arrow-alt projects__icon'></i>
+                            </a>
+                        </span>
+                    </div>
+            
+                    <!-- Project 3 -->
+                    <div class="projects__card">
+                        <a href="https://final-fullsatck-frented.vercel.app/" target="_blank" class="projects__link">
+                            <img src="assets/img/project3.png" alt="Project 3 Thumbnail" class="projects__image" />
+                        </a>
+                        <h3 class="projects__title">Course Management System  </h3>
+                        <!-- <p class="projects__description">
+                            A Course Management System (CMS) is a web-based platform that simplifies the creation, delivery, and management of educational courses and content.
+                        </p> -->
+                        <span class="projects__button">
+                            <a href="https://final-fullsatck-frented.vercel.app/" target="_blank">
+                                View Project <i class='bx bx-right-arrow-alt projects__icon'></i>
+                            </a>
+                        </span>
+                    </div>
+            
+                    <!-- Add More Projects as Needed -->
+                </div>
+            </section>
+            
+
+            
+
+
+            <!--=============== CONTACT ===============-->
+           
+
+
+            <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid section__border">
+            <div class="contact__content">
+                <h3 class="contact__title">
+                    <i class="ri-chat-3-line"></i> Talk to me
+                </h3>
+
+                <div class="contact__info">
+                    <div class="contact__data">
+                        <span class="contact__data-title">Email</span>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><span class="contact__data-info">evaviji64@gmail.com</span></a>
+                    </div>
+
+                    <div class="contact__data">
+                        <span class="contact__data-title">Whatsapp</span>
+                        <span class="contact__data-info">+91 8148552971</span>
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=918754466139&text=Hello, more information!" target="_blank" class="contact__button">
+                            Write me <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                   
+                </div>
+            </div>
+            
+            <div class="contact__content">
+                <h3 class="contact__title">
+                    <i class="ri-send-plane-line"></i> Hire Me !
+                </h3>
+
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Name</label>
+                        <input type="text" name="user_name" required placeholder="Write your name" class="contact__form-input" id="contact-name">
+                    </div>
+
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Mail</label>
+                        <input type="email" name="user_email" required placeholder="Write your mail" class="contact__form-input" id="contact-email">
+                    </div>
+
+                    <div class="contact__form-div contact__form-area">
+                        <label class="contact__form-tag">Project</label>
+                        <textarea name="user_project" placeholder="Write your message" class="contact__form-input" id="contact-project"></textarea>
+                    </div>
+
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button  type="submit" class="contact__button">
+                        Submit <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">vijayakumar</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#testimonial" class="footer__link">Testimonials</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; your name. All rigths reserved
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+  <!--=============== EMAIL JS ===============-->
+         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+
+
+    </body>
+</html>
